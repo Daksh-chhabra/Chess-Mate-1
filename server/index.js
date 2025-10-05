@@ -36,7 +36,6 @@
     next();
     });
 
-   import cors from 'cors';
 
 const allowedOrigin = process.env.APP_API_URL && process.env.APP_API_URL.replace(/\/+$/, '');
 
